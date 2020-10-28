@@ -12,7 +12,7 @@ All dependencies are installed with ``pip install -r requirements.txt``. Please 
 The implementation of DOUBLER is located in `doubler.py`.
 
 ## Training & Evaluation
-To run training and evaluation, execute `python runner.py`. Hyperparameters can be adapted within the `main()` method of the respective file.
+To run training and evaluation, execute `python runner.py`. Hyperparameters can be adapted within the `main()` method of the respective file. Please note that you first have to unzip the file `features_bow.zip` in the folder `/data`. Be aware that it will grow to almost 700 MB.
 
 ## Source databases and their licenses
 An example dataset is part of this repository. In particular, we used the following datasets:
